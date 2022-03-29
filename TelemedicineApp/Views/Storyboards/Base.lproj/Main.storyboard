@@ -1,24 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nrt-3U-aoj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-Bold.ttf">
+            <string>Muli-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="hqx-eo-X7X">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="Nrt-3U-aoj" customClass="ViewController" customModule="TelemedicineApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MDH-kX-DbH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_ic" translatesAutoresizingMaskIntoConstraints="NO" id="cQP-Ye-nzd">
+                                <rect key="frame" x="132" y="74" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="MJA-zI-i40"/>
+                                    <constraint firstAttribute="height" constant="150" id="z9b-3c-R77"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select User Type Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i78-eK-yBE">
+                                <rect key="frame" x="97" y="224" width="220.5" height="29.5"/>
+                                <fontDescription key="fontDescription" name="Muli-Bold" family="Muli" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JCO-b4-npD">
+                                <rect key="frame" x="0.0" y="399.5" width="414" height="496.5"/>
+                                <color key="backgroundColor" red="0.64858788249999999" green="0.77230817080000003" blue="0.99680501219999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BTv-it-tQ9">
+                                <rect key="frame" x="107" y="283.5" width="200" height="196"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C60-QC-15U">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="128"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="physicianlogin_ic" translatesAutoresizingMaskIntoConstraints="NO" id="etd-42-7eW">
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="dGs-sL-k3T"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="etd-42-7eW" firstAttribute="leading" secondItem="C60-QC-15U" secondAttribute="leading" id="4rZ-7D-Fvl"/>
+                                            <constraint firstItem="etd-42-7eW" firstAttribute="top" secondItem="C60-QC-15U" secondAttribute="top" id="XbF-4F-OJA"/>
+                                            <constraint firstAttribute="trailing" secondItem="etd-42-7eW" secondAttribute="trailing" id="kZd-hG-77d"/>
+                                            <constraint firstAttribute="height" constant="128" id="lfZ-eR-Cr5"/>
+                                            <constraint firstAttribute="bottom" secondItem="etd-42-7eW" secondAttribute="bottom" id="zrc-Aj-YNu"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="57K-O6-E6i">
+                                        <rect key="frame" x="0.0" y="68" width="200" height="128"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patientlogin_ic" translatesAutoresizingMaskIntoConstraints="NO" id="aK7-2Z-CeB">
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="2KE-W4-q1e"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="aK7-2Z-CeB" secondAttribute="trailing" id="4Ug-hc-eVC"/>
+                                            <constraint firstAttribute="height" constant="128" id="Tam-BI-JXj"/>
+                                            <constraint firstItem="aK7-2Z-CeB" firstAttribute="leading" secondItem="57K-O6-E6i" secondAttribute="leading" id="c1T-Uv-gSZ"/>
+                                            <constraint firstItem="aK7-2Z-CeB" firstAttribute="top" secondItem="57K-O6-E6i" secondAttribute="top" id="kGN-Ap-BsV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="57K-O6-E6i" secondAttribute="bottom" id="Nbn-9f-AEJ"/>
+                                    <constraint firstItem="57K-O6-E6i" firstAttribute="top" secondItem="C60-QC-15U" secondAttribute="bottom" constant="-60" id="bgF-fd-0qc"/>
+                                    <constraint firstItem="C60-QC-15U" firstAttribute="leading" secondItem="BTv-it-tQ9" secondAttribute="leading" id="dKM-7p-hTb"/>
+                                    <constraint firstItem="57K-O6-E6i" firstAttribute="leading" secondItem="BTv-it-tQ9" secondAttribute="leading" id="dwW-Ka-gvN"/>
+                                    <constraint firstAttribute="width" constant="200" id="f1h-h5-ZPN"/>
+                                    <constraint firstItem="C60-QC-15U" firstAttribute="top" secondItem="BTv-it-tQ9" secondAttribute="top" id="oaC-bL-42v"/>
+                                    <constraint firstAttribute="trailing" secondItem="C60-QC-15U" secondAttribute="trailing" id="pWg-SP-KaN"/>
+                                    <constraint firstAttribute="trailing" secondItem="57K-O6-E6i" secondAttribute="trailing" id="upz-xp-0f1"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="98"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DJa-hO-Ej9"/>
+                        <color key="backgroundColor" red="0.94890326260000002" green="0.94908493760000001" blue="0.94888979200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BTv-it-tQ9" firstAttribute="top" secondItem="i78-eK-yBE" secondAttribute="bottom" constant="30" id="0D0-V1-iWp"/>
+                            <constraint firstItem="JCO-b4-npD" firstAttribute="top" secondItem="BTv-it-tQ9" secondAttribute="bottom" constant="-80" id="HJT-mc-p6o"/>
+                            <constraint firstItem="BTv-it-tQ9" firstAttribute="centerX" secondItem="MDH-kX-DbH" secondAttribute="centerX" id="Kfx-tq-WSp"/>
+                            <constraint firstItem="i78-eK-yBE" firstAttribute="top" secondItem="cQP-Ye-nzd" secondAttribute="bottom" id="MII-XV-aEa"/>
+                            <constraint firstItem="i78-eK-yBE" firstAttribute="centerX" secondItem="MDH-kX-DbH" secondAttribute="centerX" id="MJh-Ko-HQk"/>
+                            <constraint firstItem="DJa-hO-Ej9" firstAttribute="trailing" secondItem="JCO-b4-npD" secondAttribute="trailing" id="Xot-Bg-VO3"/>
+                            <constraint firstItem="cQP-Ye-nzd" firstAttribute="centerX" secondItem="MDH-kX-DbH" secondAttribute="centerX" id="cWt-Qs-MMy"/>
+                            <constraint firstItem="JCO-b4-npD" firstAttribute="leading" secondItem="DJa-hO-Ej9" secondAttribute="leading" id="dVh-yu-5DY"/>
+                            <constraint firstAttribute="bottom" secondItem="JCO-b4-npD" secondAttribute="bottom" id="hTM-o8-cYl"/>
+                            <constraint firstItem="cQP-Ye-nzd" firstAttribute="top" secondItem="DJa-hO-Ej9" secondAttribute="top" constant="30" id="jJd-go-F2m"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7g6-Ex-Jbm" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="80" y="95"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo_ic" width="110" height="110"/>
+        <image name="patientlogin_ic" width="276" height="184"/>
+        <image name="physicianlogin_ic" width="277" height="178"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

@@ -19,6 +19,17 @@
 		2F1CE7E127F20EFE005663EB /* GeneralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE7E027F20EFE005663EB /* GeneralExtensions.swift */; };
 		2F1CE7E627F20F05005663EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE7E527F20F05005663EB /* Constants.swift */; };
 		2F1CE7ED27F20F1E005663EB /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE7EC27F20F1E005663EB /* UIView+Toast.m */; };
+		2FA81BDF27F31D2F0070A3C7 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD427F31D2F0070A3C7 /* Muli-Light.ttf */; };
+		2FA81BE027F31D2F0070A3C7 /* Muli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD527F31D2F0070A3C7 /* Muli.ttf */; };
+		2FA81BE127F31D2F0070A3C7 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD627F31D2F0070A3C7 /* SIL Open Font License.txt */; };
+		2FA81BE227F31D2F0070A3C7 /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD727F31D2F0070A3C7 /* Muli-Italic.ttf */; };
+		2FA81BE327F31D2F0070A3C7 /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD827F31D2F0070A3C7 /* Muli-ExtraLight.ttf */; };
+		2FA81BE427F31D2F0070A3C7 /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD927F31D2F0070A3C7 /* Muli-Bold.ttf */; };
+		2FA81BE527F31D2F0070A3C7 /* Muli-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDA27F31D2F0070A3C7 /* Muli-BoldItalic.ttf */; };
+		2FA81BE627F31D2F0070A3C7 /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDB27F31D2F0070A3C7 /* Muli-LightItalic.ttf */; };
+		2FA81BE727F31D2F0070A3C7 /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDC27F31D2F0070A3C7 /* Muli-SemiBold.ttf */; };
+		2FA81BE827F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDD27F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf */; };
+		2FA81BE927F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDE27F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf */; };
 		B9A569E66F18D038820409D0 /* Pods_TelemedicineApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD0E7E67311CB1E6B17B11B /* Pods_TelemedicineApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +71,17 @@
 		2F1CE7EB27F20F1E005663EB /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		2F1CE7EC27F20F1E005663EB /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		2F1CE7F127F20F40005663EB /* TelemedicineApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TelemedicineApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		2FA81BD427F31D2F0070A3C7 /* Muli-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Light.ttf"; sourceTree = "<group>"; };
+		2FA81BD527F31D2F0070A3C7 /* Muli.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Muli.ttf; sourceTree = "<group>"; };
+		2FA81BD627F31D2F0070A3C7 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		2FA81BD727F31D2F0070A3C7 /* Muli-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Italic.ttf"; sourceTree = "<group>"; };
+		2FA81BD827F31D2F0070A3C7 /* Muli-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2FA81BD927F31D2F0070A3C7 /* Muli-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Bold.ttf"; sourceTree = "<group>"; };
+		2FA81BDA27F31D2F0070A3C7 /* Muli-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2FA81BDB27F31D2F0070A3C7 /* Muli-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-LightItalic.ttf"; sourceTree = "<group>"; };
+		2FA81BDC27F31D2F0070A3C7 /* Muli-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-SemiBold.ttf"; sourceTree = "<group>"; };
+		2FA81BDD27F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		2FA81BDE27F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Semi-BoldItalic.ttf"; sourceTree = "<group>"; };
 		4E8DB2A769A1385A53902DFE /* Pods-TelemedicineApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelemedicineApp.release.xcconfig"; path = "Target Support Files/Pods-TelemedicineApp/Pods-TelemedicineApp.release.xcconfig"; sourceTree = "<group>"; };
 		8CD0E7E67311CB1E6B17B11B /* Pods_TelemedicineApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelemedicineApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921A118C631192B2AC28D0FC /* Pods-TelemedicineApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelemedicineApp.debug.xcconfig"; path = "Target Support Files/Pods-TelemedicineApp/Pods-TelemedicineApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +207,7 @@
 		2F1CE7A527F20A68005663EB /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				2FA81BD327F31D0A0070A3C7 /* Fonts */,
 				2F1CE84127F2100D005663EB /* Toast */,
 			);
 			path = Utility;
@@ -221,6 +244,24 @@
 				2F1CE7EC27F20F1E005663EB /* UIView+Toast.m */,
 			);
 			path = Toast;
+			sourceTree = "<group>";
+		};
+		2FA81BD327F31D0A0070A3C7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2FA81BD927F31D2F0070A3C7 /* Muli-Bold.ttf */,
+				2FA81BDA27F31D2F0070A3C7 /* Muli-BoldItalic.ttf */,
+				2FA81BD827F31D2F0070A3C7 /* Muli-ExtraLight.ttf */,
+				2FA81BDD27F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf */,
+				2FA81BD727F31D2F0070A3C7 /* Muli-Italic.ttf */,
+				2FA81BD427F31D2F0070A3C7 /* Muli-Light.ttf */,
+				2FA81BDB27F31D2F0070A3C7 /* Muli-LightItalic.ttf */,
+				2FA81BDE27F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf */,
+				2FA81BDC27F31D2F0070A3C7 /* Muli-SemiBold.ttf */,
+				2FA81BD527F31D2F0070A3C7 /* Muli.ttf */,
+				2FA81BD627F31D2F0070A3C7 /* SIL Open Font License.txt */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		C5E95B2164E4471A595C1A7A /* Frameworks */ = {
@@ -345,9 +386,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA81BE927F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf in Resources */,
+				2FA81BE727F31D2F0070A3C7 /* Muli-SemiBold.ttf in Resources */,
+				2FA81BE827F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf in Resources */,
+				2FA81BE527F31D2F0070A3C7 /* Muli-BoldItalic.ttf in Resources */,
+				2FA81BE427F31D2F0070A3C7 /* Muli-Bold.ttf in Resources */,
 				2F1CE77B27F20A2C005663EB /* LaunchScreen.storyboard in Resources */,
+				2FA81BE227F31D2F0070A3C7 /* Muli-Italic.ttf in Resources */,
+				2FA81BE027F31D2F0070A3C7 /* Muli.ttf in Resources */,
 				2F1CE77827F20A2C005663EB /* Assets.xcassets in Resources */,
+				2FA81BE127F31D2F0070A3C7 /* SIL Open Font License.txt in Resources */,
+				2FA81BDF27F31D2F0070A3C7 /* Muli-Light.ttf in Resources */,
 				2F1CE77327F20A2B005663EB /* Main.storyboard in Resources */,
+				2FA81BE327F31D2F0070A3C7 /* Muli-ExtraLight.ttf in Resources */,
+				2FA81BE627F31D2F0070A3C7 /* Muli-LightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
