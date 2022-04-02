@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F07E32327F70F650094B49D /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07E32227F70F650094B49D /* AddCardViewController.swift */; };
+		2F1B0E6A27F6FFDB00827820 /* MyCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B0E6927F6FFDB00827820 /* MyCardsViewController.swift */; };
 		2F1CE76C27F20A2B005663EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE76B27F20A2B005663EB /* AppDelegate.swift */; };
 		2F1CE76E27F20A2B005663EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE76D27F20A2B005663EB /* SceneDelegate.swift */; };
-		2F1CE77027F20A2B005663EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE76F27F20A2B005663EB /* ViewController.swift */; };
 		2F1CE77327F20A2B005663EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1CE77127F20A2B005663EB /* Main.storyboard */; };
 		2F1CE77627F20A2B005663EB /* TelemedicineApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE77427F20A2B005663EB /* TelemedicineApp.xcdatamodeld */; };
 		2F1CE77827F20A2C005663EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1CE77727F20A2C005663EB /* Assets.xcassets */; };
@@ -19,17 +20,50 @@
 		2F1CE7E127F20EFE005663EB /* GeneralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE7E027F20EFE005663EB /* GeneralExtensions.swift */; };
 		2F1CE7E627F20F05005663EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE7E527F20F05005663EB /* Constants.swift */; };
 		2F1CE7ED27F20F1E005663EB /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE7EC27F20F1E005663EB /* UIView+Toast.m */; };
-		2FA81BDF27F31D2F0070A3C7 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD427F31D2F0070A3C7 /* Muli-Light.ttf */; };
-		2FA81BE027F31D2F0070A3C7 /* Muli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD527F31D2F0070A3C7 /* Muli.ttf */; };
+		2F25D06527F6EF4900C4E74C /* AppoinmentBookedPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F25D06427F6EF4900C4E74C /* AppoinmentBookedPopupViewController.swift */; };
+		2F495DB727F59ABE00632D5C /* DateInsertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DB027F59ABE00632D5C /* DateInsertType.swift */; };
+		2F495DB827F59ABE00632D5C /* DateScrollItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DB127F59ABE00632D5C /* DateScrollItem.swift */; };
+		2F495DB927F59ABE00632D5C /* DateScrollPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F495DB227F59ABE00632D5C /* DateScrollPicker.xib */; };
+		2F495DBA27F59ABE00632D5C /* DateScrollPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DB327F59ABE00632D5C /* DateScrollPicker.swift */; };
+		2F495DBB27F59ABE00632D5C /* DateScrollManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DB427F59ABE00632D5C /* DateScrollManager.swift */; };
+		2F495DBC27F59ABE00632D5C /* DateScrollPicker+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DB527F59ABE00632D5C /* DateScrollPicker+Protocols.swift */; };
+		2F495DBD27F59ABE00632D5C /* DateScrollPickerFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DB627F59ABE00632D5C /* DateScrollPickerFormat.swift */; };
+		2F495DC427F59B1C00632D5C /* DateViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DC027F59B1C00632D5C /* DateViewCell.swift */; };
+		2F495DC527F59B1C00632D5C /* DateViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F495DC127F59B1C00632D5C /* DateViewCell.xib */; };
+		2F495DC627F59B1C00632D5C /* SeparatorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F495DC227F59B1C00632D5C /* SeparatorViewCell.xib */; };
+		2F495DC727F59B1C00632D5C /* SeparatorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DC327F59B1C00632D5C /* SeparatorViewCell.swift */; };
+		2F495DCD27F59B3700632D5C /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DC827F59B3700632D5C /* UIView+Nib.swift */; };
+		2F495DCE27F59B3700632D5C /* Date+Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DC927F59B3700632D5C /* Date+Days.swift */; };
+		2F495DCF27F59B3700632D5C /* UICollectionViewCell+Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DCA27F59B3700632D5C /* UICollectionViewCell+Fade.swift */; };
+		2F495DD027F59B3700632D5C /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DCB27F59B3700632D5C /* Date+Format.swift */; };
+		2F495DD127F59B3700632D5C /* UICollectionView+Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DCC27F59B3700632D5C /* UICollectionView+Fade.swift */; };
+		2F495DD427F59BBB00632D5C /* SelectProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DD327F59BBB00632D5C /* SelectProfileDetailsViewController.swift */; };
+		2F55688E27F41E7900387676 /* DoctorListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F55688D27F41E7900387676 /* DoctorListingViewController.swift */; };
+		2F566AD727F6AAF100ADFD8C /* BodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F566AD627F6AAF100ADFD8C /* BodyViewController.swift */; };
+		2F566AD927F6AC1600ADFD8C /* BodyReasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F566AD827F6AC1600ADFD8C /* BodyReasonViewController.swift */; };
+		2F566ADB27F6B9D900ADFD8C /* BodySubReasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F566ADA27F6B9D900ADFD8C /* BodySubReasonViewController.swift */; };
+		2F5AD8DF27F4767E00698654 /* SelectUserTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5AD8DE27F4767E00698654 /* SelectUserTypeViewController.swift */; };
+		2F726ECC27F6CE71005CAADA /* ChooseMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F726ECB27F6CE71005CAADA /* ChooseMethodViewController.swift */; };
+		2F81791627F43B980062B28A /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD827F31D2F0070A3C7 /* Muli-ExtraLight.ttf */; };
+		2F81791727F43B980062B28A /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD727F31D2F0070A3C7 /* Muli-Italic.ttf */; };
+		2F81791827F43B980062B28A /* Muli-Semi-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDE27F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf */; };
+		2F81791927F43B980062B28A /* Muli-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDD27F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf */; };
+		2F81791A27F43B980062B28A /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD427F31D2F0070A3C7 /* Muli-Light.ttf */; };
+		2F81791B27F43B980062B28A /* Muli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD527F31D2F0070A3C7 /* Muli.ttf */; };
+		2F81791C27F43B980062B28A /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDC27F31D2F0070A3C7 /* Muli-SemiBold.ttf */; };
+		2F81791D27F43B980062B28A /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDB27F31D2F0070A3C7 /* Muli-LightItalic.ttf */; };
+		2F81791E27F43B980062B28A /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD927F31D2F0070A3C7 /* Muli-Bold.ttf */; };
+		2F81791F27F43B980062B28A /* Muli-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDA27F31D2F0070A3C7 /* Muli-BoldItalic.ttf */; };
+		2F8E60F527F4698800EB6841 /* CreateProfile2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E60F427F4698800EB6841 /* CreateProfile2ViewController.swift */; };
+		2F90DE4427F44F0300CA057A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90DE4327F44F0300CA057A /* LoginViewController.swift */; };
+		2F90DE4827F4509900CA057A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90DE4727F4509900CA057A /* ForgotPasswordViewController.swift */; };
+		2F90DE4B27F45E8800CA057A /* CreateProfile1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90DE4A27F45E8800CA057A /* CreateProfile1ViewController.swift */; };
+		2F90DE4D27F4643D00CA057A /* RPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90DE4C27F4643D00CA057A /* RPicker.swift */; };
+		2FA46FE927F4158600531685 /* SelectYourProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA46FE827F4158600531685 /* SelectYourProfileViewController.swift */; };
 		2FA81BE127F31D2F0070A3C7 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD627F31D2F0070A3C7 /* SIL Open Font License.txt */; };
-		2FA81BE227F31D2F0070A3C7 /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD727F31D2F0070A3C7 /* Muli-Italic.ttf */; };
-		2FA81BE327F31D2F0070A3C7 /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD827F31D2F0070A3C7 /* Muli-ExtraLight.ttf */; };
-		2FA81BE427F31D2F0070A3C7 /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD927F31D2F0070A3C7 /* Muli-Bold.ttf */; };
-		2FA81BE527F31D2F0070A3C7 /* Muli-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDA27F31D2F0070A3C7 /* Muli-BoldItalic.ttf */; };
-		2FA81BE627F31D2F0070A3C7 /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDB27F31D2F0070A3C7 /* Muli-LightItalic.ttf */; };
-		2FA81BE727F31D2F0070A3C7 /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDC27F31D2F0070A3C7 /* Muli-SemiBold.ttf */; };
-		2FA81BE827F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDD27F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf */; };
-		2FA81BE927F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BDE27F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf */; };
+		2FAEF69527F5691000B517C7 /* HealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEF69427F5691000B517C7 /* HealthDataViewController.swift */; };
+		2FAEF69927F578BA00B517C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEF69727F578BA00B517C7 /* ViewController.swift */; };
+		2FAEF69B27F57F0D00B517C7 /* CircleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEF69A27F57F0C00B517C7 /* CircleLayout.swift */; };
 		B9A569E66F18D038820409D0 /* Pods_TelemedicineApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD0E7E67311CB1E6B17B11B /* Pods_TelemedicineApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,10 +85,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F07E32227F70F650094B49D /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		2F1B0E6927F6FFDB00827820 /* MyCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsViewController.swift; sourceTree = "<group>"; };
 		2F1CE76827F20A2B005663EB /* TelemedicineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelemedicineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1CE76B27F20A2B005663EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F1CE76D27F20A2B005663EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F1CE76F27F20A2B005663EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F1CE77227F20A2B005663EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F1CE77527F20A2B005663EB /* TelemedicineApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelemedicineApp.xcdatamodel; sourceTree = "<group>"; };
 		2F1CE77727F20A2C005663EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +106,36 @@
 		2F1CE7EB27F20F1E005663EB /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		2F1CE7EC27F20F1E005663EB /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		2F1CE7F127F20F40005663EB /* TelemedicineApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TelemedicineApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F25D06427F6EF4900C4E74C /* AppoinmentBookedPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppoinmentBookedPopupViewController.swift; sourceTree = "<group>"; };
+		2F495DB027F59ABE00632D5C /* DateInsertType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateInsertType.swift; sourceTree = "<group>"; };
+		2F495DB127F59ABE00632D5C /* DateScrollItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateScrollItem.swift; sourceTree = "<group>"; };
+		2F495DB227F59ABE00632D5C /* DateScrollPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateScrollPicker.xib; sourceTree = "<group>"; };
+		2F495DB327F59ABE00632D5C /* DateScrollPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateScrollPicker.swift; sourceTree = "<group>"; };
+		2F495DB427F59ABE00632D5C /* DateScrollManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateScrollManager.swift; sourceTree = "<group>"; };
+		2F495DB527F59ABE00632D5C /* DateScrollPicker+Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateScrollPicker+Protocols.swift"; sourceTree = "<group>"; };
+		2F495DB627F59ABE00632D5C /* DateScrollPickerFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateScrollPickerFormat.swift; sourceTree = "<group>"; };
+		2F495DC027F59B1C00632D5C /* DateViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewCell.swift; sourceTree = "<group>"; };
+		2F495DC127F59B1C00632D5C /* DateViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateViewCell.xib; sourceTree = "<group>"; };
+		2F495DC227F59B1C00632D5C /* SeparatorViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeparatorViewCell.xib; sourceTree = "<group>"; };
+		2F495DC327F59B1C00632D5C /* SeparatorViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorViewCell.swift; sourceTree = "<group>"; };
+		2F495DC827F59B3700632D5C /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Nib.swift"; path = "../../../../../../../Downloads/DateScrollPicker-master/DateScrollPicker/Classes/Extensions/UIView+Nib.swift"; sourceTree = "<group>"; };
+		2F495DC927F59B3700632D5C /* Date+Days.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Days.swift"; path = "../../../../../../../Downloads/DateScrollPicker-master/DateScrollPicker/Classes/Extensions/Date+Days.swift"; sourceTree = "<group>"; };
+		2F495DCA27F59B3700632D5C /* UICollectionViewCell+Fade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionViewCell+Fade.swift"; path = "../../../../../../../Downloads/DateScrollPicker-master/DateScrollPicker/Classes/Extensions/UICollectionViewCell+Fade.swift"; sourceTree = "<group>"; };
+		2F495DCB27F59B3700632D5C /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Format.swift"; path = "../../../../../../../Downloads/DateScrollPicker-master/DateScrollPicker/Classes/Extensions/Date+Format.swift"; sourceTree = "<group>"; };
+		2F495DCC27F59B3700632D5C /* UICollectionView+Fade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Fade.swift"; path = "../../../../../../../Downloads/DateScrollPicker-master/DateScrollPicker/Classes/Extensions/UICollectionView+Fade.swift"; sourceTree = "<group>"; };
+		2F495DD327F59BBB00632D5C /* SelectProfileDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfileDetailsViewController.swift; sourceTree = "<group>"; };
+		2F55688D27F41E7900387676 /* DoctorListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListingViewController.swift; sourceTree = "<group>"; };
+		2F566AD627F6AAF100ADFD8C /* BodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyViewController.swift; sourceTree = "<group>"; };
+		2F566AD827F6AC1600ADFD8C /* BodyReasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyReasonViewController.swift; sourceTree = "<group>"; };
+		2F566ADA27F6B9D900ADFD8C /* BodySubReasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySubReasonViewController.swift; sourceTree = "<group>"; };
+		2F5AD8DE27F4767E00698654 /* SelectUserTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserTypeViewController.swift; sourceTree = "<group>"; };
+		2F726ECB27F6CE71005CAADA /* ChooseMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMethodViewController.swift; sourceTree = "<group>"; };
+		2F8E60F427F4698800EB6841 /* CreateProfile2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile2ViewController.swift; sourceTree = "<group>"; };
+		2F90DE4327F44F0300CA057A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2F90DE4727F4509900CA057A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		2F90DE4A27F45E8800CA057A /* CreateProfile1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile1ViewController.swift; sourceTree = "<group>"; };
+		2F90DE4C27F4643D00CA057A /* RPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPicker.swift; sourceTree = "<group>"; };
+		2FA46FE827F4158600531685 /* SelectYourProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectYourProfileViewController.swift; sourceTree = "<group>"; };
 		2FA81BD427F31D2F0070A3C7 /* Muli-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Light.ttf"; sourceTree = "<group>"; };
 		2FA81BD527F31D2F0070A3C7 /* Muli.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Muli.ttf; sourceTree = "<group>"; };
 		2FA81BD627F31D2F0070A3C7 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
@@ -82,6 +147,9 @@
 		2FA81BDC27F31D2F0070A3C7 /* Muli-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-SemiBold.ttf"; sourceTree = "<group>"; };
 		2FA81BDD27F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		2FA81BDE27F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Semi-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2FAEF69427F5691000B517C7 /* HealthDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataViewController.swift; sourceTree = "<group>"; };
+		2FAEF69727F578BA00B517C7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FAEF69A27F57F0C00B517C7 /* CircleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayout.swift; sourceTree = "<group>"; };
 		4E8DB2A769A1385A53902DFE /* Pods-TelemedicineApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelemedicineApp.release.xcconfig"; path = "Target Support Files/Pods-TelemedicineApp/Pods-TelemedicineApp.release.xcconfig"; sourceTree = "<group>"; };
 		8CD0E7E67311CB1E6B17B11B /* Pods_TelemedicineApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelemedicineApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921A118C631192B2AC28D0FC /* Pods-TelemedicineApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelemedicineApp.debug.xcconfig"; path = "Target Support Files/Pods-TelemedicineApp/Pods-TelemedicineApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +275,8 @@
 		2F1CE7A527F20A68005663EB /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				2F90DE4C27F4643D00CA057A /* RPicker.swift */,
+				2F495DAF27F59A8500632D5C /* Calandar Files */,
 				2FA81BD327F31D0A0070A3C7 /* Fonts */,
 				2F1CE84127F2100D005663EB /* Toast */,
 			);
@@ -216,23 +286,25 @@
 		2F1CE7A627F20A76005663EB /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				2F726ECA27F6CE61005CAADA /* Payment Flow */,
+				2F566AD527F6AAE300ADFD8C /* Body Flow */,
+				2FAEF69A27F57F0C00B517C7 /* CircleLayout.swift */,
+				2FAEF69727F578BA00B517C7 /* ViewController.swift */,
+				2FAEF69327F5690600B517C7 /* Health Data */,
+				2F5AD8DD27F4766C00698654 /* Select User Type */,
+				2F90DE4927F45E4D00CA057A /* CreateProfile */,
+				2F90DE4627F4508500CA057A /* Forgot Password */,
+				2F55688C27F41E5400387676 /* Doctor Listing */,
+				2FA46FE727F4156A00531685 /* Select your profile */,
 				2F1CE7A827F20A9A005663EB /* Login */,
-				2F1CE7A727F20A8B005663EB /* Viewcontroller */,
 			);
 			path = Viewcontrollers;
-			sourceTree = "<group>";
-		};
-		2F1CE7A727F20A8B005663EB /* Viewcontroller */ = {
-			isa = PBXGroup;
-			children = (
-				2F1CE76F27F20A2B005663EB /* ViewController.swift */,
-			);
-			path = Viewcontroller;
 			sourceTree = "<group>";
 		};
 		2F1CE7A827F20A9A005663EB /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				2F90DE4327F44F0300CA057A /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -244,6 +316,108 @@
 				2F1CE7EC27F20F1E005663EB /* UIView+Toast.m */,
 			);
 			path = Toast;
+			sourceTree = "<group>";
+		};
+		2F495DAF27F59A8500632D5C /* Calandar Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F495DBF27F59AF900632D5C /* Cells */,
+				2F495DBE27F59AF000632D5C /* Extensions */,
+				2F495DB027F59ABE00632D5C /* DateInsertType.swift */,
+				2F495DB127F59ABE00632D5C /* DateScrollItem.swift */,
+				2F495DB427F59ABE00632D5C /* DateScrollManager.swift */,
+				2F495DB327F59ABE00632D5C /* DateScrollPicker.swift */,
+				2F495DB227F59ABE00632D5C /* DateScrollPicker.xib */,
+				2F495DB527F59ABE00632D5C /* DateScrollPicker+Protocols.swift */,
+				2F495DB627F59ABE00632D5C /* DateScrollPickerFormat.swift */,
+			);
+			path = "Calandar Files";
+			sourceTree = "<group>";
+		};
+		2F495DBE27F59AF000632D5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F495DC927F59B3700632D5C /* Date+Days.swift */,
+				2F495DCB27F59B3700632D5C /* Date+Format.swift */,
+				2F495DCC27F59B3700632D5C /* UICollectionView+Fade.swift */,
+				2F495DCA27F59B3700632D5C /* UICollectionViewCell+Fade.swift */,
+				2F495DC827F59B3700632D5C /* UIView+Nib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2F495DBF27F59AF900632D5C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F495DC027F59B1C00632D5C /* DateViewCell.swift */,
+				2F495DC127F59B1C00632D5C /* DateViewCell.xib */,
+				2F495DC327F59B1C00632D5C /* SeparatorViewCell.swift */,
+				2F495DC227F59B1C00632D5C /* SeparatorViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2F55688C27F41E5400387676 /* Doctor Listing */ = {
+			isa = PBXGroup;
+			children = (
+				2F55688D27F41E7900387676 /* DoctorListingViewController.swift */,
+			);
+			path = "Doctor Listing";
+			sourceTree = "<group>";
+		};
+		2F566AD527F6AAE300ADFD8C /* Body Flow */ = {
+			isa = PBXGroup;
+			children = (
+				2F566AD627F6AAF100ADFD8C /* BodyViewController.swift */,
+				2F566AD827F6AC1600ADFD8C /* BodyReasonViewController.swift */,
+				2F566ADA27F6B9D900ADFD8C /* BodySubReasonViewController.swift */,
+			);
+			path = "Body Flow";
+			sourceTree = "<group>";
+		};
+		2F5AD8DD27F4766C00698654 /* Select User Type */ = {
+			isa = PBXGroup;
+			children = (
+				2F5AD8DE27F4767E00698654 /* SelectUserTypeViewController.swift */,
+			);
+			path = "Select User Type";
+			sourceTree = "<group>";
+		};
+		2F726ECA27F6CE61005CAADA /* Payment Flow */ = {
+			isa = PBXGroup;
+			children = (
+				2F726ECB27F6CE71005CAADA /* ChooseMethodViewController.swift */,
+				2F25D06427F6EF4900C4E74C /* AppoinmentBookedPopupViewController.swift */,
+				2F1B0E6927F6FFDB00827820 /* MyCardsViewController.swift */,
+				2F07E32227F70F650094B49D /* AddCardViewController.swift */,
+			);
+			path = "Payment Flow";
+			sourceTree = "<group>";
+		};
+		2F90DE4627F4508500CA057A /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				2F90DE4727F4509900CA057A /* ForgotPasswordViewController.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		2F90DE4927F45E4D00CA057A /* CreateProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2F90DE4A27F45E8800CA057A /* CreateProfile1ViewController.swift */,
+				2F8E60F427F4698800EB6841 /* CreateProfile2ViewController.swift */,
+			);
+			path = CreateProfile;
+			sourceTree = "<group>";
+		};
+		2FA46FE727F4156A00531685 /* Select your profile */ = {
+			isa = PBXGroup;
+			children = (
+				2FA46FE827F4158600531685 /* SelectYourProfileViewController.swift */,
+				2F495DD327F59BBB00632D5C /* SelectProfileDetailsViewController.swift */,
+			);
+			path = "Select your profile";
 			sourceTree = "<group>";
 		};
 		2FA81BD327F31D0A0070A3C7 /* Fonts */ = {
@@ -262,6 +436,14 @@
 				2FA81BD627F31D2F0070A3C7 /* SIL Open Font License.txt */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2FAEF69327F5690600B517C7 /* Health Data */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEF69427F5691000B517C7 /* HealthDataViewController.swift */,
+			);
+			path = "Health Data";
 			sourceTree = "<group>";
 		};
 		C5E95B2164E4471A595C1A7A /* Frameworks */ = {
@@ -386,20 +568,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA81BE927F31D2F0070A3C7 /* Muli-Semi-BoldItalic.ttf in Resources */,
-				2FA81BE727F31D2F0070A3C7 /* Muli-SemiBold.ttf in Resources */,
-				2FA81BE827F31D2F0070A3C7 /* Muli-ExtraLightItalic.ttf in Resources */,
-				2FA81BE527F31D2F0070A3C7 /* Muli-BoldItalic.ttf in Resources */,
-				2FA81BE427F31D2F0070A3C7 /* Muli-Bold.ttf in Resources */,
+				2F81791827F43B980062B28A /* Muli-Semi-BoldItalic.ttf in Resources */,
+				2F81791B27F43B980062B28A /* Muli.ttf in Resources */,
+				2F81791D27F43B980062B28A /* Muli-LightItalic.ttf in Resources */,
 				2F1CE77B27F20A2C005663EB /* LaunchScreen.storyboard in Resources */,
-				2FA81BE227F31D2F0070A3C7 /* Muli-Italic.ttf in Resources */,
-				2FA81BE027F31D2F0070A3C7 /* Muli.ttf in Resources */,
+				2F81791F27F43B980062B28A /* Muli-BoldItalic.ttf in Resources */,
+				2F495DC627F59B1C00632D5C /* SeparatorViewCell.xib in Resources */,
+				2F81791C27F43B980062B28A /* Muli-SemiBold.ttf in Resources */,
+				2F81791727F43B980062B28A /* Muli-Italic.ttf in Resources */,
+				2F81791927F43B980062B28A /* Muli-ExtraLightItalic.ttf in Resources */,
+				2F495DB927F59ABE00632D5C /* DateScrollPicker.xib in Resources */,
+				2F81791A27F43B980062B28A /* Muli-Light.ttf in Resources */,
+				2F495DC527F59B1C00632D5C /* DateViewCell.xib in Resources */,
 				2F1CE77827F20A2C005663EB /* Assets.xcassets in Resources */,
 				2FA81BE127F31D2F0070A3C7 /* SIL Open Font License.txt in Resources */,
-				2FA81BDF27F31D2F0070A3C7 /* Muli-Light.ttf in Resources */,
+				2F81791627F43B980062B28A /* Muli-ExtraLight.ttf in Resources */,
 				2F1CE77327F20A2B005663EB /* Main.storyboard in Resources */,
-				2FA81BE327F31D2F0070A3C7 /* Muli-ExtraLight.ttf in Resources */,
-				2FA81BE627F31D2F0070A3C7 /* Muli-LightItalic.ttf in Resources */,
+				2F81791E27F43B980062B28A /* Muli-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,13 +651,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F566AD727F6AAF100ADFD8C /* BodyViewController.swift in Sources */,
+				2F566ADB27F6B9D900ADFD8C /* BodySubReasonViewController.swift in Sources */,
+				2F25D06527F6EF4900C4E74C /* AppoinmentBookedPopupViewController.swift in Sources */,
 				2F1CE7E127F20EFE005663EB /* GeneralExtensions.swift in Sources */,
-				2F1CE77027F20A2B005663EB /* ViewController.swift in Sources */,
+				2F726ECC27F6CE71005CAADA /* ChooseMethodViewController.swift in Sources */,
+				2F495DD427F59BBB00632D5C /* SelectProfileDetailsViewController.swift in Sources */,
+				2F90DE4827F4509900CA057A /* ForgotPasswordViewController.swift in Sources */,
+				2F495DCF27F59B3700632D5C /* UICollectionViewCell+Fade.swift in Sources */,
+				2F8E60F527F4698800EB6841 /* CreateProfile2ViewController.swift in Sources */,
+				2F495DB827F59ABE00632D5C /* DateScrollItem.swift in Sources */,
+				2F07E32327F70F650094B49D /* AddCardViewController.swift in Sources */,
+				2F495DD027F59B3700632D5C /* Date+Format.swift in Sources */,
+				2F566AD927F6AC1600ADFD8C /* BodyReasonViewController.swift in Sources */,
+				2F495DCE27F59B3700632D5C /* Date+Days.swift in Sources */,
+				2F5AD8DF27F4767E00698654 /* SelectUserTypeViewController.swift in Sources */,
+				2F495DBB27F59ABE00632D5C /* DateScrollManager.swift in Sources */,
+				2F495DC727F59B1C00632D5C /* SeparatorViewCell.swift in Sources */,
 				2F1CE77627F20A2B005663EB /* TelemedicineApp.xcdatamodeld in Sources */,
+				2F90DE4D27F4643D00CA057A /* RPicker.swift in Sources */,
 				2F1CE76C27F20A2B005663EB /* AppDelegate.swift in Sources */,
+				2FAEF69527F5691000B517C7 /* HealthDataViewController.swift in Sources */,
+				2F495DBC27F59ABE00632D5C /* DateScrollPicker+Protocols.swift in Sources */,
 				2F1CE7ED27F20F1E005663EB /* UIView+Toast.m in Sources */,
+				2FAEF69927F578BA00B517C7 /* ViewController.swift in Sources */,
+				2F495DBD27F59ABE00632D5C /* DateScrollPickerFormat.swift in Sources */,
+				2F495DC427F59B1C00632D5C /* DateViewCell.swift in Sources */,
 				2F1CE76E27F20A2B005663EB /* SceneDelegate.swift in Sources */,
 				2F1CE7E627F20F05005663EB /* Constants.swift in Sources */,
+				2F495DCD27F59B3700632D5C /* UIView+Nib.swift in Sources */,
+				2F495DB727F59ABE00632D5C /* DateInsertType.swift in Sources */,
+				2FA46FE927F4158600531685 /* SelectYourProfileViewController.swift in Sources */,
+				2F1B0E6A27F6FFDB00827820 /* MyCardsViewController.swift in Sources */,
+				2F90DE4427F44F0300CA057A /* LoginViewController.swift in Sources */,
+				2F495DBA27F59ABE00632D5C /* DateScrollPicker.swift in Sources */,
+				2F495DD127F59B3700632D5C /* UICollectionView+Fade.swift in Sources */,
+				2F90DE4B27F45E8800CA057A /* CreateProfile1ViewController.swift in Sources */,
+				2F55688E27F41E7900387676 /* DoctorListingViewController.swift in Sources */,
+				2FAEF69B27F57F0D00B517C7 /* CircleLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,7 +865,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UPFV6MWLTQ;
 				INFOPLIST_FILE = TelemedicineApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -658,6 +877,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.itt.TelemedicineApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "wildcard iOS dev profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "TelemedicineApp/TelemedicineApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -670,7 +890,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UPFV6MWLTQ;
 				INFOPLIST_FILE = TelemedicineApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -679,6 +902,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.itt.TelemedicineApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "wildcard iOS dev profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "TelemedicineApp/TelemedicineApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
