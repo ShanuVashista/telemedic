@@ -7,6 +7,8 @@ target 'TelemedicineApp' do
 
   # Pods for TelemedicineApp
 
+#pod 'Cosmos', '~> 23.0'
+#pod 'FloatRatingView', '~> 4'
 pod 'IQKeyboardManagerSwift'
 pod 'Alamofire'
 pod 'AFNetworking'

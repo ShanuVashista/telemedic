@@ -34,8 +34,8 @@ class CreateProfile1ViewController: UIViewController {
         self.tf_lastname.setRightPaddingPoints(10)
         self.tf_age.setRightPaddingPoints(10)
         
+        self.imgview.addShadow(offset: CGSize(width: 1.0, height: 1.0), color: .gray, radius: 5.0, opacity: 0.5)
     }
-    
 }
 
 
@@ -136,7 +136,9 @@ extension CreateProfile1ViewController:UINavigationControllerDelegate, UIImagePi
     {
         if let image = info[.editedImage] as? UIImage
         {
-            self.imgview.contentMode = .scaleAspectFill
+            self.imgview.layer.cornerRadius = 10.0
+            self.imgview.clipsToBounds = true
+            self.imgview.contentMode = .scaleToFill
             self.imgview.image = image
         }
         picker.dismiss(animated: true, completion: nil)

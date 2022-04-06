@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2F07E32327F70F650094B49D /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07E32227F70F650094B49D /* AddCardViewController.swift */; };
+		2F0F090A27FC397B00C71B1C /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F090927FC397B00C71B1C /* UITextView+Placeholder.m */; };
+		2F0F090D27FC622C00C71B1C /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F090C27FC622C00C71B1C /* FloatRatingView.swift */; };
 		2F1B0E6A27F6FFDB00827820 /* MyCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B0E6927F6FFDB00827820 /* MyCardsViewController.swift */; };
 		2F1CE76C27F20A2B005663EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE76B27F20A2B005663EB /* AppDelegate.swift */; };
 		2F1CE76E27F20A2B005663EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1CE76D27F20A2B005663EB /* SceneDelegate.swift */; };
@@ -38,11 +40,16 @@
 		2F495DD027F59B3700632D5C /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DCB27F59B3700632D5C /* Date+Format.swift */; };
 		2F495DD127F59B3700632D5C /* UICollectionView+Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DCC27F59B3700632D5C /* UICollectionView+Fade.swift */; };
 		2F495DD427F59BBB00632D5C /* SelectProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F495DD327F59BBB00632D5C /* SelectProfileDetailsViewController.swift */; };
+		2F4E53C827FAC781002A701D /* HealthDataDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E53C727FAC781002A701D /* HealthDataDetailsViewController.swift */; };
+		2F4E53CB27FAD585002A701D /* WaitingRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E53CA27FAD585002A701D /* WaitingRoomViewController.swift */; };
 		2F55688E27F41E7900387676 /* DoctorListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F55688D27F41E7900387676 /* DoctorListingViewController.swift */; };
 		2F566AD727F6AAF100ADFD8C /* BodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F566AD627F6AAF100ADFD8C /* BodyViewController.swift */; };
 		2F566AD927F6AC1600ADFD8C /* BodyReasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F566AD827F6AC1600ADFD8C /* BodyReasonViewController.swift */; };
 		2F566ADB27F6B9D900ADFD8C /* BodySubReasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F566ADA27F6B9D900ADFD8C /* BodySubReasonViewController.swift */; };
 		2F5AD8DF27F4767E00698654 /* SelectUserTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5AD8DE27F4767E00698654 /* SelectUserTypeViewController.swift */; };
+		2F5D656527FC1BA40073E487 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5D656427FC1BA40073E487 /* TestViewController.swift */; };
+		2F5D656827FC27EA0073E487 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5D656727FC27EA0073E487 /* RatingViewController.swift */; };
+		2F5FA27127FAEC7900EF3FCE /* CompletedAppoinmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5FA27027FAEC7900EF3FCE /* CompletedAppoinmentDetailsViewController.swift */; };
 		2F726ECC27F6CE71005CAADA /* ChooseMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F726ECB27F6CE71005CAADA /* ChooseMethodViewController.swift */; };
 		2F81791627F43B980062B28A /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD827F31D2F0070A3C7 /* Muli-ExtraLight.ttf */; };
 		2F81791727F43B980062B28A /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD727F31D2F0070A3C7 /* Muli-Italic.ttf */; };
@@ -59,6 +66,11 @@
 		2F90DE4827F4509900CA057A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90DE4727F4509900CA057A /* ForgotPasswordViewController.swift */; };
 		2F90DE4B27F45E8800CA057A /* CreateProfile1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90DE4A27F45E8800CA057A /* CreateProfile1ViewController.swift */; };
 		2F90DE4D27F4643D00CA057A /* RPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90DE4C27F4643D00CA057A /* RPicker.swift */; };
+		2F9F9BD027FAA115006AE72C /* UpcomingAppoinmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F9BCF27FAA115006AE72C /* UpcomingAppoinmentViewController.swift */; };
+		2F9F9BD227FAA4A7006AE72C /* UpcomingAppoinmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F9BD127FAA4A7006AE72C /* UpcomingAppoinmentDetailsViewController.swift */; };
+		2F9F9BD527FAAF75006AE72C /* RescheduleAppoinmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F9BD427FAAF75006AE72C /* RescheduleAppoinmentViewController.swift */; };
+		2F9F9BD727FAB37D006AE72C /* HealthDataListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F9BD627FAB37D006AE72C /* HealthDataListingViewController.swift */; };
+		2F9F9BD927FAB84B006AE72C /* AddHealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F9BD827FAB84B006AE72C /* AddHealthDataViewController.swift */; };
 		2FA46FE927F4158600531685 /* SelectYourProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA46FE827F4158600531685 /* SelectYourProfileViewController.swift */; };
 		2FA81BE127F31D2F0070A3C7 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FA81BD627F31D2F0070A3C7 /* SIL Open Font License.txt */; };
 		2FAEF69527F5691000B517C7 /* HealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEF69427F5691000B517C7 /* HealthDataViewController.swift */; };
@@ -86,6 +98,9 @@
 
 /* Begin PBXFileReference section */
 		2F07E32227F70F650094B49D /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		2F0F090827FC397B00C71B1C /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		2F0F090927FC397B00C71B1C /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		2F0F090C27FC622C00C71B1C /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
 		2F1B0E6927F6FFDB00827820 /* MyCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsViewController.swift; sourceTree = "<group>"; };
 		2F1CE76827F20A2B005663EB /* TelemedicineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelemedicineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1CE76B27F20A2B005663EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,17 +139,27 @@
 		2F495DCB27F59B3700632D5C /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Format.swift"; path = "../../../../../../../Downloads/DateScrollPicker-master/DateScrollPicker/Classes/Extensions/Date+Format.swift"; sourceTree = "<group>"; };
 		2F495DCC27F59B3700632D5C /* UICollectionView+Fade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Fade.swift"; path = "../../../../../../../Downloads/DateScrollPicker-master/DateScrollPicker/Classes/Extensions/UICollectionView+Fade.swift"; sourceTree = "<group>"; };
 		2F495DD327F59BBB00632D5C /* SelectProfileDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfileDetailsViewController.swift; sourceTree = "<group>"; };
+		2F4E53C727FAC781002A701D /* HealthDataDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataDetailsViewController.swift; sourceTree = "<group>"; };
+		2F4E53CA27FAD585002A701D /* WaitingRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingRoomViewController.swift; sourceTree = "<group>"; };
 		2F55688D27F41E7900387676 /* DoctorListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListingViewController.swift; sourceTree = "<group>"; };
 		2F566AD627F6AAF100ADFD8C /* BodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyViewController.swift; sourceTree = "<group>"; };
 		2F566AD827F6AC1600ADFD8C /* BodyReasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyReasonViewController.swift; sourceTree = "<group>"; };
 		2F566ADA27F6B9D900ADFD8C /* BodySubReasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySubReasonViewController.swift; sourceTree = "<group>"; };
 		2F5AD8DE27F4767E00698654 /* SelectUserTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserTypeViewController.swift; sourceTree = "<group>"; };
+		2F5D656427FC1BA40073E487 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		2F5D656727FC27EA0073E487 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		2F5FA27027FAEC7900EF3FCE /* CompletedAppoinmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedAppoinmentDetailsViewController.swift; sourceTree = "<group>"; };
 		2F726ECB27F6CE71005CAADA /* ChooseMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMethodViewController.swift; sourceTree = "<group>"; };
 		2F8E60F427F4698800EB6841 /* CreateProfile2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile2ViewController.swift; sourceTree = "<group>"; };
 		2F90DE4327F44F0300CA057A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2F90DE4727F4509900CA057A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		2F90DE4A27F45E8800CA057A /* CreateProfile1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile1ViewController.swift; sourceTree = "<group>"; };
 		2F90DE4C27F4643D00CA057A /* RPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPicker.swift; sourceTree = "<group>"; };
+		2F9F9BCF27FAA115006AE72C /* UpcomingAppoinmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingAppoinmentViewController.swift; sourceTree = "<group>"; };
+		2F9F9BD127FAA4A7006AE72C /* UpcomingAppoinmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingAppoinmentDetailsViewController.swift; sourceTree = "<group>"; };
+		2F9F9BD427FAAF75006AE72C /* RescheduleAppoinmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescheduleAppoinmentViewController.swift; sourceTree = "<group>"; };
+		2F9F9BD627FAB37D006AE72C /* HealthDataListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataListingViewController.swift; sourceTree = "<group>"; };
+		2F9F9BD827FAB84B006AE72C /* AddHealthDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHealthDataViewController.swift; sourceTree = "<group>"; };
 		2FA46FE827F4158600531685 /* SelectYourProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectYourProfileViewController.swift; sourceTree = "<group>"; };
 		2FA81BD427F31D2F0070A3C7 /* Muli-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Light.ttf"; sourceTree = "<group>"; };
 		2FA81BD527F31D2F0070A3C7 /* Muli.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Muli.ttf; sourceTree = "<group>"; };
@@ -181,6 +206,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F0F090727FC396E00C71B1C /* Textview */ = {
+			isa = PBXGroup;
+			children = (
+				2F0F090827FC397B00C71B1C /* UITextView+Placeholder.h */,
+				2F0F090927FC397B00C71B1C /* UITextView+Placeholder.m */,
+			);
+			path = Textview;
+			sourceTree = "<group>";
+		};
+		2F0F090B27FC621600C71B1C /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				2F0F090C27FC622C00C71B1C /* FloatRatingView.swift */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
 		2F1CE75F27F20A2B005663EB = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +317,8 @@
 		2F1CE7A527F20A68005663EB /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				2F0F090B27FC621600C71B1C /* Rating */,
+				2F0F090727FC396E00C71B1C /* Textview */,
 				2F90DE4C27F4643D00CA057A /* RPicker.swift */,
 				2F495DAF27F59A8500632D5C /* Calandar Files */,
 				2FA81BD327F31D0A0070A3C7 /* Fonts */,
@@ -286,11 +330,16 @@
 		2F1CE7A627F20A76005663EB /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				2F5D656627FC27DA0073E487 /* Rating Popup */,
+				2F4E53C927FAD564002A701D /* Waiting Room */,
+				2F9F9BD327FAAF56006AE72C /* Reschedule Appoinment */,
+				2F9F9BCE27FAA0FC006AE72C /* Upcoming (Completed) Appoinment */,
 				2F726ECA27F6CE61005CAADA /* Payment Flow */,
 				2F566AD527F6AAE300ADFD8C /* Body Flow */,
 				2FAEF69A27F57F0C00B517C7 /* CircleLayout.swift */,
+				2F5D656427FC1BA40073E487 /* TestViewController.swift */,
 				2FAEF69727F578BA00B517C7 /* ViewController.swift */,
-				2FAEF69327F5690600B517C7 /* Health Data */,
+				2FAEF69327F5690600B517C7 /* Health Data (Profile) */,
 				2F5AD8DD27F4766C00698654 /* Select User Type */,
 				2F90DE4927F45E4D00CA057A /* CreateProfile */,
 				2F90DE4627F4508500CA057A /* Forgot Password */,
@@ -357,6 +406,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		2F4E53C927FAD564002A701D /* Waiting Room */ = {
+			isa = PBXGroup;
+			children = (
+				2F4E53CA27FAD585002A701D /* WaitingRoomViewController.swift */,
+			);
+			path = "Waiting Room";
+			sourceTree = "<group>";
+		};
 		2F55688C27F41E5400387676 /* Doctor Listing */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,6 +438,22 @@
 				2F5AD8DE27F4767E00698654 /* SelectUserTypeViewController.swift */,
 			);
 			path = "Select User Type";
+			sourceTree = "<group>";
+		};
+		2F5D656627FC27DA0073E487 /* Rating Popup */ = {
+			isa = PBXGroup;
+			children = (
+				2F5D656727FC27EA0073E487 /* RatingViewController.swift */,
+			);
+			path = "Rating Popup";
+			sourceTree = "<group>";
+		};
+		2F5FA26F27FAEC5F00EF3FCE /* Completed Details */ = {
+			isa = PBXGroup;
+			children = (
+				2F5FA27027FAEC7900EF3FCE /* CompletedAppoinmentDetailsViewController.swift */,
+			);
+			path = "Completed Details";
 			sourceTree = "<group>";
 		};
 		2F726ECA27F6CE61005CAADA /* Payment Flow */ = {
@@ -411,6 +484,24 @@
 			path = CreateProfile;
 			sourceTree = "<group>";
 		};
+		2F9F9BCE27FAA0FC006AE72C /* Upcoming (Completed) Appoinment */ = {
+			isa = PBXGroup;
+			children = (
+				2F5FA26F27FAEC5F00EF3FCE /* Completed Details */,
+				2F9F9BCF27FAA115006AE72C /* UpcomingAppoinmentViewController.swift */,
+				2F9F9BD127FAA4A7006AE72C /* UpcomingAppoinmentDetailsViewController.swift */,
+			);
+			path = "Upcoming (Completed) Appoinment";
+			sourceTree = "<group>";
+		};
+		2F9F9BD327FAAF56006AE72C /* Reschedule Appoinment */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F9BD427FAAF75006AE72C /* RescheduleAppoinmentViewController.swift */,
+			);
+			path = "Reschedule Appoinment";
+			sourceTree = "<group>";
+		};
 		2FA46FE727F4156A00531685 /* Select your profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,12 +529,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		2FAEF69327F5690600B517C7 /* Health Data */ = {
+		2FAEF69327F5690600B517C7 /* Health Data (Profile) */ = {
 			isa = PBXGroup;
 			children = (
 				2FAEF69427F5691000B517C7 /* HealthDataViewController.swift */,
+				2F9F9BD627FAB37D006AE72C /* HealthDataListingViewController.swift */,
+				2F9F9BD827FAB84B006AE72C /* AddHealthDataViewController.swift */,
+				2F4E53C727FAC781002A701D /* HealthDataDetailsViewController.swift */,
 			);
-			path = "Health Data";
+			path = "Health Data (Profile)";
 			sourceTree = "<group>";
 		};
 		C5E95B2164E4471A595C1A7A /* Frameworks */ = {
@@ -651,6 +745,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5D656527FC1BA40073E487 /* TestViewController.swift in Sources */,
+				2F5FA27127FAEC7900EF3FCE /* CompletedAppoinmentDetailsViewController.swift in Sources */,
 				2F566AD727F6AAF100ADFD8C /* BodyViewController.swift in Sources */,
 				2F566ADB27F6B9D900ADFD8C /* BodySubReasonViewController.swift in Sources */,
 				2F25D06527F6EF4900C4E74C /* AppoinmentBookedPopupViewController.swift in Sources */,
@@ -658,21 +754,26 @@
 				2F726ECC27F6CE71005CAADA /* ChooseMethodViewController.swift in Sources */,
 				2F495DD427F59BBB00632D5C /* SelectProfileDetailsViewController.swift in Sources */,
 				2F90DE4827F4509900CA057A /* ForgotPasswordViewController.swift in Sources */,
+				2F5D656827FC27EA0073E487 /* RatingViewController.swift in Sources */,
 				2F495DCF27F59B3700632D5C /* UICollectionViewCell+Fade.swift in Sources */,
 				2F8E60F527F4698800EB6841 /* CreateProfile2ViewController.swift in Sources */,
 				2F495DB827F59ABE00632D5C /* DateScrollItem.swift in Sources */,
 				2F07E32327F70F650094B49D /* AddCardViewController.swift in Sources */,
 				2F495DD027F59B3700632D5C /* Date+Format.swift in Sources */,
 				2F566AD927F6AC1600ADFD8C /* BodyReasonViewController.swift in Sources */,
+				2F4E53CB27FAD585002A701D /* WaitingRoomViewController.swift in Sources */,
 				2F495DCE27F59B3700632D5C /* Date+Days.swift in Sources */,
 				2F5AD8DF27F4767E00698654 /* SelectUserTypeViewController.swift in Sources */,
 				2F495DBB27F59ABE00632D5C /* DateScrollManager.swift in Sources */,
 				2F495DC727F59B1C00632D5C /* SeparatorViewCell.swift in Sources */,
+				2F9F9BD027FAA115006AE72C /* UpcomingAppoinmentViewController.swift in Sources */,
+				2F9F9BD227FAA4A7006AE72C /* UpcomingAppoinmentDetailsViewController.swift in Sources */,
 				2F1CE77627F20A2B005663EB /* TelemedicineApp.xcdatamodeld in Sources */,
 				2F90DE4D27F4643D00CA057A /* RPicker.swift in Sources */,
 				2F1CE76C27F20A2B005663EB /* AppDelegate.swift in Sources */,
 				2FAEF69527F5691000B517C7 /* HealthDataViewController.swift in Sources */,
 				2F495DBC27F59ABE00632D5C /* DateScrollPicker+Protocols.swift in Sources */,
+				2F9F9BD927FAB84B006AE72C /* AddHealthDataViewController.swift in Sources */,
 				2F1CE7ED27F20F1E005663EB /* UIView+Toast.m in Sources */,
 				2FAEF69927F578BA00B517C7 /* ViewController.swift in Sources */,
 				2F495DBD27F59ABE00632D5C /* DateScrollPickerFormat.swift in Sources */,
@@ -681,11 +782,16 @@
 				2F1CE7E627F20F05005663EB /* Constants.swift in Sources */,
 				2F495DCD27F59B3700632D5C /* UIView+Nib.swift in Sources */,
 				2F495DB727F59ABE00632D5C /* DateInsertType.swift in Sources */,
+				2F4E53C827FAC781002A701D /* HealthDataDetailsViewController.swift in Sources */,
+				2F0F090D27FC622C00C71B1C /* FloatRatingView.swift in Sources */,
 				2FA46FE927F4158600531685 /* SelectYourProfileViewController.swift in Sources */,
 				2F1B0E6A27F6FFDB00827820 /* MyCardsViewController.swift in Sources */,
 				2F90DE4427F44F0300CA057A /* LoginViewController.swift in Sources */,
 				2F495DBA27F59ABE00632D5C /* DateScrollPicker.swift in Sources */,
 				2F495DD127F59B3700632D5C /* UICollectionView+Fade.swift in Sources */,
+				2F0F090A27FC397B00C71B1C /* UITextView+Placeholder.m in Sources */,
+				2F9F9BD727FAB37D006AE72C /* HealthDataListingViewController.swift in Sources */,
+				2F9F9BD527FAAF75006AE72C /* RescheduleAppoinmentViewController.swift in Sources */,
 				2F90DE4B27F45E8800CA057A /* CreateProfile1ViewController.swift in Sources */,
 				2F55688E27F41E7900387676 /* DoctorListingViewController.swift in Sources */,
 				2FAEF69B27F57F0D00B517C7 /* CircleLayout.swift in Sources */,

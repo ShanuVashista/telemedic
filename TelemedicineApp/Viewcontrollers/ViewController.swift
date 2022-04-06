@@ -2,9 +2,10 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
-    var numberOfCells = 10
+    var numberOfCells = 6
     var lastRotation: CGFloat = 0
     @IBOutlet weak var collectionView: UICollectionView!
+    var arr = ["crop_yellow","crop_blue","crop_red","crop_yellow","crop_blue","crop_red"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,15 +50,17 @@ extension ViewController {
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CircleCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CircleCell", for: indexPath) as! CircleCell
+        cell.imgview.image = UIImage(named: "\(self.arr[indexPath.row])")
         return cell
     }
 }
 
 
 
-//// MARK: - Tableview cell
-//class DEMOCELL: UICollectionViewCell {
-//
-//
-//}
+// MARK: - Tableview cell
+class CircleCell: UICollectionViewCell {
+
+    @IBOutlet weak var imgview: UIImageView!
+
+}

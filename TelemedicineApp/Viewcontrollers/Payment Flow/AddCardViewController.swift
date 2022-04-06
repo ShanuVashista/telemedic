@@ -25,7 +25,6 @@ class AddCardViewController: UIViewController {
         self.tf_cardholdername.setLeftPaddingPoints(10)
         self.tf_cardnumber.setLeftPaddingPoints(10)
         self.tf_cvv.setLeftPaddingPoints(10)
-
         
         self.tf_cardtype.setRightPaddingPoints(10)
         self.tf_cardholdername.setRightPaddingPoints(10)

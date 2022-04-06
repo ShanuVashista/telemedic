@@ -11,12 +11,27 @@ class BodyReasonViewController: UIViewController {
 
     // MARK: - Refference outlet and variables
     @IBOutlet weak var tblview: UITableView!
+    @IBOutlet weak var lblHeader: UILabel!
+    @IBOutlet weak var lblSubCategory: UILabel!
+
+    var isfrom = ""
 
     // MARK: - viewDidLoad
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.isfrom = "Appoinment"
+        
+        if self.isfrom == "Appoinment"{
+            self.lblHeader.text! = "BOOK AN APPOINTMENT"
+            self.lblSubCategory.text! = "Head & Neck"
+            self.lblSubCategory.isHidden = false
+        }else{
+            self.lblHeader.text! = "OTHER DISEASES"
+            self.lblSubCategory.text! = ""
+            self.lblSubCategory.isHidden = true
+        }
         self.tblview.estimatedRowHeight = 70
 
     }
@@ -45,6 +60,11 @@ extension BodyReasonViewController: UITableViewDelegate, UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = self.tblview.dequeueReusableCell(withIdentifier: "ReasonCell", for: indexPath) as! ReasonCell
+        if self.isfrom == "Appoinment"{
+            cell.tick.isHidden = false
+        }else{
+            cell.tick.isHidden = true
+        }
         return cell
     }
     
@@ -63,4 +83,6 @@ extension BodyReasonViewController: UITableViewDelegate, UITableViewDataSource
 // MARK: - Tableview cell
 class ReasonCell: UITableViewCell {
     @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var tick: UIImageView!
+
 }

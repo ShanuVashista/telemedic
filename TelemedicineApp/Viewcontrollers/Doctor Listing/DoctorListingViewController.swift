@@ -14,6 +14,8 @@ class DoctorListingViewController: UIViewController {
     @IBOutlet weak var tblview: UITableView!
     var selected = 0
 
+    // MARK: - viewDidLoad
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -85,4 +87,5 @@ class DoctorCell: UITableViewCell {
     @IBOutlet weak var time: UILabel!
     @IBOutlet weak var address: UILabel!
     @IBOutlet weak var tick: UIImageView!
+    @IBOutlet weak var mark: UILabel!
 }
